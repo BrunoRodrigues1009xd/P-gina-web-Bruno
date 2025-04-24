@@ -1,3 +1,3 @@
 # P-gina-web-Bruno
 
-## Trabalho de Desenvolvimento de Sistemas - Front-end 
+## Feito por Bruno Vinicius Lemes Rodrigues, №: 05, 2º B DS. 

@@ -1,0 +1,130 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Game Store do Bruno</title>
+        <link rel="shortcut icon" href="Vermelho_240 - Copia.webp" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div>
+            <ul class="menu">
+                <li><a href="index.html">Pagina Inicial</a></li>
+                <li><a href="860645.png">Loja</a></li>
+               <li><a href="contato.html">Contato</a></li>
+
+            </ul>
+        <img class="logo" height="100px" src="Question_Block_NSMB.webp">
+        <h1>Lᴏᴊᴀ ᴅᴇ Jᴏɢᴏs</h1>
+        <img class="logo" height="100px" src="Question_Block_NSMB.webp">
+        </div>
+        <p><strong>Jogos populares no momento:</strong></p>
+        <ul>
+            <li>Angry Birds</li>
+            <li>Minecraft</li>
+            <li>Super Mario World</li>
+            <li>GTA San Andreas</li>
+            <li>Undertale</li>
+        </ul>
+
+        <div class="fundo-imagem">
+        <img windth="100px" height="470px" src="super_mario_world_yoshi.webp">
+        <img windth="100px" height="470px" src="angry-birds-03.webp">
+        </div>
+        <h2>Gameplay de um dos jogos:</h2>
+        <div class="fundo-video"> 
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/GXIvRwmmXKs?si=-KUmL-MwbBn4N0Mj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <h3>Localização:</h3>
+        <div class="localizacao">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.2675719687127!2d-50.162213124792046!3d-25.09280227777825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e81a408f7f0317%3A0x2eab1d0cba2411e1!2sCol%C3%A9gio%20Estadual%20Regente%20Feij%C3%B3!5e0!3m2!1spt-BR!2sbr!4v1745409205844!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <a href="https://google.com.br">Link para o google </a>
+    </body>
+</html>
+
+
+div {
+    background-color:#f6ff00d4;
+    text-align: center;
+}
+body {
+    background-color:#59ff34;
+      font-family: "Roboto Mono", monospace;
+}
+h1 {
+    text-shadow: 2px 2px 3px black, -2px -2px 3px black ;
+    color:#ffffff;
+    font-size: 80px;
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+ul {
+    text-align: left;
+}
+
+.logo {
+    width: 120px;
+}
+
+p{
+    font-size: 25px;
+    background-color: #1c8200;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 25px;
+    background-color: #1c8200;
+    color: #ffffff;
+}
+h3 {
+    font-size: 25px;
+    background-color: #1c8200;
+    color: #ffffff;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    background-color:#1c8200;
+}
+
+.menu a{
+text-decoration: none;
+font-size: 25px;
+color:rgb(255, 255, 255);
+font-size: 25px;
+font-weight: bold;
+line-height: 45px;
+}
+
+.menu a:hover{
+    color:#1c8200
+}
+
+.fundo-video {
+    background-color:#59ff34;
+    align-items: center;
+
+}
+
+.fundo-imagem {
+    background-color:#59ff34;
+    align-items: center;
+}
+
+.localizacao {
+    background-color:#59ff34;
+    align-items: center;
+}

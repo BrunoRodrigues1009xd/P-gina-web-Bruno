@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produtos</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="stylenovo.css">
+
+</head>
+<body>
+   <header class="cabecalho">
+    <img class="logo" src="Imagens do trabalho/Vermelho_240 - Copia.webp " 
+    alt="Logo do Site" >
+    <h1 class="titulo-site">Loja de Jogos</h1>
+   </header>
+   <nav class="menu">
+       <ul>
+           <li class="menu-item"><a href="index.html">Início</a></li>
+           <li class="menu-item"><a href="Produtos.html">Produtos</a></li>
+           <li class="menu-item"><a href="">Página Inicial</a></li>
+       </ul>
+
+   </nav>
+</body>
+</html>

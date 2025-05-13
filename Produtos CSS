@@ -1,0 +1,33 @@
+:root{
+
+    --cor-principal: gold  ;
+    --cor-secundaria: yellow ;
+    --cor-destaque:#32CD32;
+    --branco: white ;
+}
+
+
+.cabecalho {
+    background-color:var(--cor-principal);
+}
+
+.menu >ul{
+    background-color:#1c8200;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.menu-item >a{
+    color: var(--cor-destaque);
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 2em;
+    font-variant: small-caps;
+}
+
+.menu-item > a:hover{
+    color: var(--cor-secundaria);
+}

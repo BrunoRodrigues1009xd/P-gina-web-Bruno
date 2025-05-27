@@ -8,7 +8,14 @@
 
 
 .cabecalho {
-    background-color:var(--cor-principal);
+    background-color:#1da01d;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 .menu >ul{
@@ -20,7 +27,7 @@
 }
 
 .menu-item >a{
-    color: var(--cor-destaque);
+    color:#eaffea;
     text-decoration: none;
     font-size: 1.5em;
     font-weight: bold;
@@ -30,4 +37,14 @@
 
 .menu-item > a:hover{
     color: var(--cor-secundaria);
+}
+
+h1 {
+    text-shadow: 2px 2px 3px black, -2px -2px 3px black ;
+    color:#ffffff;
+    font-size: 80px;
+    display:inline;
+    margin-left: 20px;
+    margin-right: 20px;
+   
 }

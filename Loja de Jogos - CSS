@@ -1,10 +1,10 @@
 div {
-    background-color:#f6ff00d4;
+    background-color: #229e00;
     text-align: center;
 }
 body {
-    background-color:#59ff34;
-      font-family: "Roboto Mono", monospace;
+    background-color:#26ff00;
+     
 }
 h1 {
     text-shadow: 2px 2px 3px black, -2px -2px 3px black ;
@@ -15,16 +15,12 @@ h1 {
     margin-right: 20px;
 }
 
-ul {
-    text-align: left;
-}
-
 .logo {
     width: 120px;
 }
 
 p{
-    font-size: 25px;
+    font-size: 30px;
     background-color: #1c8200;
     color: #ffffff;
 }
@@ -45,25 +41,25 @@ h3 {
     display: flex;
     justify-content: space-between;
     background-color:#1c8200;
+
 }
 
 .menu a{
 text-decoration: none;
-font-size: 25px;
 color:rgb(255, 255, 255);
-font-size: 25px;
+font-size: 30px;
 font-weight: bold;
 line-height: 45px;
 }
 
 .menu a:hover{
-    color:#1c8200
+    color:#0dff00
 }
 
 .fundo-video {
     background-color:#59ff34;
     align-items: center;
-
+    
 }
 
 .fundo-imagem {

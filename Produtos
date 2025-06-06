@@ -1,45 +1,35 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Game Store do Bruno</title>
-        <link rel="shortcut icon" href="Imagens do trabalho/Vermelho_240 - Copia.webp" type="image/x-icon">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="Estilos/style.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja de Jogos - Produtos</title>
+  <link rel="shortcut icon" href="Imagens do trabalho/Question_Block_NSMB.webp" type="image/x-icon">
+  <link rel="stylesheet" href="Estilos/reset.css">
+  <link rel="stylesheet" href="Estilos/produtos.css">
 
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div>
-            <ul class="menu">
-                <li><a href="index.html">Pagina Inicial</a></li>
-                <li><a href="Produtos.html">Produtos</a></li>
-                <li><a hreff="contato.html"> Contato</a></li>
+</head>
+<body>
+  
+   <header class="cabecalho">
+    <a href="https://www.minecraft.net/pt-br"> <img class="logo"height="150px" src="Imagens do trabalho/3141932d5ffa4299b0bbb98f23430d9e.jpg" alt="Logo do Site" ></a>
 
-            </ul>
-        <img class="logo" height="100px" src="Imagens do trabalho/Question_Block_NSMB.webp">
-        <h1>Lᴏᴊᴀ ᴅᴇ Jᴏɢᴏs</h1>
-        <img class="logo" height="100px" src="Imagens do trabalho/Question_Block_NSMB.webp">
-        </div>
+    <h1 class="titulo-site">Jogos à venda:</h1>
 
-        <p>Jogos populares no momento:</p>
+    <img class="perfil" height="50px" src="Imagens do trabalho/vetor-de-ícone-perfil-do-avatar-padrão-imagem-símbolo-usuário-mídia-social-209498286.webp">
+    
+   </header>
 
-        <div class="fundo-imagem">
-        <img windth="100px" height="470px" src="Imagens do trabalho/super_mario_world_yoshi.webp">
-        <img windth="100px" height="470px" src="Imagens do trabalho/angry-birds-03.webp">
-        </div>
-        <h2>Gameplay de um dos jogos:</h2>
-        <div class="fundo-video"> 
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/GXIvRwmmXKs?si=-KUmL-MwbBn4N0Mj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
+   <nav class="menu">
+       <ul>
+           <li class="menu-item"><a href="index.html">Início</a></li>
+           <li class="menu-item"><a href="Produtos.html">Produtos</a></li>
+           <li class="menu-item"><a href="">Contato</li>
+           <li class="menu-item"><a href="">Sobre Nós</li>
+       </ul>
 
-        <h3>Localização:</h3>
-        <div class="localizacao">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.2675719687127!2d-50.162213124792046!3d-25.09280227777825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e81a408f7f0317%3A0x2eab1d0cba2411e1!2sCol%C3%A9gio%20Estadual%20Regente%20Feij%C3%B3!5e0!3m2!1spt-BR!2sbr!4v1745409205844!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+   </nav>
 
-        <a href="https://google.com.br">Link para o google </a>
-</html>
+   <main class="conteudo">
+
+   </main>

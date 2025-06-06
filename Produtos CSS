@@ -6,6 +6,9 @@
     --branco: white ;
 }
 
+body {
+    background-color: #6fff7e;
+}
 
 .cabecalho {
     background-color:#1da01d;
@@ -37,6 +40,15 @@
 
 .menu-item > a:hover{
     color: var(--cor-secundaria);
+}
+
+.conteudo {
+    background-color:#6fff7e
+}
+
+.perfil {
+    margin-top: -70px;
+    margin-left: 770px; 
 }
 
 h1 {

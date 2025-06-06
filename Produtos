@@ -3,24 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Produtos</title>
+  <title>Loja de Jogos - Produtos</title>
+  <link rel="shortcut icon" href="Imagens do trabalho/Question_Block_NSMB.webp" type="image/x-icon">
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="stylenovo.css">
 
 </head>
 <body>
+  
    <header class="cabecalho">
-    <img class="logo" src="Imagens do trabalho/Vermelho_240 - Copia.webp " 
-    alt="Logo do Site" >
-    <h1 class="titulo-site">Loja de Jogos</h1>
+    <a href="https://www.minecraft.net/pt-br"> <img class="logo"height="150px" src="Imagens do trabalho/3141932d5ffa4299b0bbb98f23430d9e.jpg" alt="Logo do Site" ></a>
+
+    <h1 class="titulo-site">Jogos à venda:</h1>
+
+    <img class="perfil" height="50px" src="Imagens do trabalho/vetor-de-ícone-perfil-do-avatar-padrão-imagem-símbolo-usuário-mídia-social-209498286.webp">
+    
    </header>
+
    <nav class="menu">
        <ul>
            <li class="menu-item"><a href="index.html">Início</a></li>
            <li class="menu-item"><a href="Produtos.html">Produtos</a></li>
-           <li class="menu-item"><a href="">Página Inicial</a></li>
+           <li class="menu-item"><a href="">Contato</li>
+           <li class="menu-item"><a href="">Sobre Nós</li>
        </ul>
 
    </nav>
+
+   <main class="conteudo">
+
+   </main>
+
+
+
+
+
+
+   <footer class="rodapé">
+  
+   </footer>
+
 </body>
 </html>

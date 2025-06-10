@@ -46,14 +46,17 @@ body {
     background-color:#6fff7e
 }
 
+
 .criar-conta {
     color:#ffffff;
     font-size: 20px;
-    text-align: right;
+    margin-left: 590px;
+    margin-bottom: -30px;
 }
 
 .perfil {
-    align-self: end;
+    margin-left: 770px;
+    margin-bottom: 60px;
 }
 
 .titulo-site {

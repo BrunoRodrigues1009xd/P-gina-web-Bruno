@@ -14,22 +14,36 @@
    <header class="cabecalho">
     <a href="https://www.minecraft.net/pt-br"> <img class="logo"height="150px" src="Imagens do trabalho/3141932d5ffa4299b0bbb98f23430d9e.jpg" alt="Logo do Site" ></a>
 
-    <h1 class="titulo-site">Jogos à venda:</h1>
+    <h1 class="titulo-site">LevelUp Store</h1>
 
-    <img class="perfil" height="50px" src="Imagens do trabalho/vetor-de-ícone-perfil-do-avatar-padrão-imagem-símbolo-usuário-mídia-social-209498286.webp">
+       <div class="conta">
+         <h2 class="criar-conta">Entre ou Faça login!</h2>  <img class="perfil" height="50px" src="Imagens do trabalho/vetor-de-ícone-perfil-do-avatar-padrão-imagem-símbolo-usuário-mídia-social-209498286.webp">
+       </div>
     
    </header>
 
    <nav class="menu">
        <ul>
            <li class="menu-item"><a href="index.html">Início</a></li>
-           <li class="menu-item"><a href="Produtos.html">Produtos</a></li>
-           <li class="menu-item"><a href="">Contato</li>
-           <li class="menu-item"><a href="">Sobre Nós</li>
+           <li class="menu-item"><a href="ofertas.html">Ofertas</a></li>
+           <li class="menu-item"><a href="contato.html">Contato</a></li>
+           <li class="menu-item"><a href="">Sobre Nós</a></li>
        </ul>
 
    </nav>
 
    <main class="conteudo">
+        <section class="conteudo-secao">
+
+          <div class="titulo-produtos">
+               <h1 class="letra-produtos">Produtos - Jogos</h1>
+
+          </div>
+
+
+        </section>
+
 
    </main>
+
+</body>

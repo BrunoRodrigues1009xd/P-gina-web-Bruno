@@ -1,7 +1,7 @@
 :root{
 
-    --cor-principal: gold  ;
-    --cor-secundaria: yellow ;
+    --cor-principal:#6fff7e  ;
+    --cor-secundaria:#1da01d ;
     --cor-destaque:#32CD32;
     --branco: white ;
 }
@@ -46,12 +46,17 @@ body {
     background-color:#6fff7e
 }
 
-.perfil {
-    margin-top: -70px;
-    margin-left: 770px; 
+.criar-conta {
+    color:#ffffff;
+    font-size: 20px;
+    text-align: right;
 }
 
-h1 {
+.perfil {
+    align-self: end;
+}
+
+.titulo-site {
     text-shadow: 2px 2px 3px black, -2px -2px 3px black ;
     color:#ffffff;
     font-size: 80px;
@@ -59,4 +64,17 @@ h1 {
     margin-left: 20px;
     margin-right: 20px;
    
+}
+
+.titulo-produtos {
+    background-color:var(--cor-destaque) ;
+}
+
+.letra-produtos {
+    text-shadow: 0.1px 0.1px 0.1px black, -0.1px -0.1px 0.1px black ;
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-align: center;
 }

@@ -12,7 +12,7 @@
 <body>
   
    <header class="cabecalho">
-    <a href="https://www.minecraft.net/pt-br"> <img class="logo"height="150px" src="Imagens do trabalho/3141932d5ffa4299b0bbb98f23430d9e.jpg" alt="Logo do Site" ></a>
+    <a href="https://www.minecraft.net/pt-br"> <img class="logo"height="130px" src="Imagens do trabalho/3141932d5ffa4299b0bbb98f23430d9e.jpg" alt="Logo do Site" ></a>
 
     <h1 class="titulo-site">LevelUp Store</h1>
 
@@ -35,12 +35,41 @@
    <main class="conteudo">
         <section class="conteudo-secao">
 
-          <div class="titulo-produtos">
-               <h1 class="letra-produtos">Produtos - Jogos</h1>
+           <div class="fundo-titulo-produtos">
+               <h1 class="titulo-produtos">Produtos - Jogos</h1>
+              </div>
+
+          <div class="lista-jogos">
+
+            <div class="jogos-card">
+              <img src="Imagens do trabalho/RC_AB_App_Icon_April_2022.webp" alt="angrybirds" class="jogo-imagem">
+              <h3 class="jogo-nome">Angry Birds</h3>
+              <p class="jogo-preco">Preço: R$00,00</p>
+              <p class="jogo-nota">Nota: 4,5/5 ⭐</p>
+            </div>  
+            
+            <div class="jogos-card">
+              <img src="Imagens do trabalho/undertale-font.jpg" alt="Undertale" class="jogo-imagem">
+              <h3 class="jogo-nome">Undertale</h3>
+              <p class="jogo-preco">Preço: R$20,00</p>
+              <p class="jogo-nota">Nota: 5/5 ⭐</p>
+            </div>
+
+            <div class="jogos-card">
+              <img src="Imagens do trabalho/RC_AB_App_Icon_April_2022.webp" alt="angrybirds" class="jogo-imagem">
+              <h3 class="jogo-nome">Angry Birds</h3>
+              <p class="jogo-preco">Preço: R$00,00</p>
+              <p class="jogo-nota">Nota: 4,5/5 ⭐</p>
+            </div>
+
+              <div class="jogos-card">
+              <img src="Imagens do trabalho/RC_AB_App_Icon_April_2022.webp" alt="angrybirds" class="jogo-imagem">
+              <h3 class="jogo-nome">Angry Birds</h3>
+              <p class="jogo-preco">Preço: R$00,00</p>
+              <p class="jogo-nota">Nota: 4,5/5 ⭐</p>
+            </div>
 
           </div>
-
-
         </section>
 
 

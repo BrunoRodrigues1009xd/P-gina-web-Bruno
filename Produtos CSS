@@ -7,6 +7,8 @@
     --cor-link:#66ff00;
     --cor-produtos:#26ff4a;
     --cor-verdeescuro:#0a2b00;
+    --cor-verdeinter:#23af00;
+
 }
 
 body {
@@ -72,10 +74,15 @@ body {
    
 }
 
-   .fundo-titulo-produtos {
+.fundo-titulo-produtos {
     background-color:var(--cor-destaque) ;
 }
 
+.lista-jogos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
 
 .titulo-produtos {
     background-color: #32CD32;
@@ -87,13 +94,26 @@ body {
     text-align: center;
 }
 
+.fundo-venda-produtos {
+    background-color: var(--cor-principal);
+}
+
+.venda-produtos {
+    background-color: var(--cor-principal);
+    text-shadow: 0.1px 0.1px 0.1px black, -0.1px -0.1px 0.1px black ;
+    color: var(--cor-verdeinter);
+    font-size: 30px;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-align: left; 
+}
 
 .jogos-card {
   background-color: var(--cor-produtos);
   border-radius: 10px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.219);
-  width: 150px;
-  padding: 10px;
+  width: 170px;
+  padding: 8px;
   margin: 15px;
   text-align: center;
   display:inline-block;
@@ -121,8 +141,10 @@ body {
   color: var(--cor-verdeescuro);
 }
 
-.lista-jogos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
+.jogo-abaixar {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 4px 0;
+  color: var(--cor-verdeescuro);
 }
+

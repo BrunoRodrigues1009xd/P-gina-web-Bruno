@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Loja de Jogos - Produtos</title>
+  <title>LevelUp Store - Produtos</title>
   <link rel="shortcut icon" href="Imagens do trabalho/Question_Block_NSMB.webp" type="image/x-icon">
   <link rel="stylesheet" href="Estilos/reset.css">
   <link rel="stylesheet" href="Estilos/produtos.css">
@@ -17,7 +17,7 @@
     <h1 class="titulo-site">LevelUp Store</h1>
 
        <div class="conta">
-         <h2 class="criar-conta">Entre ou Faça login!</h2>  <img class="perfil" height="50px" src="Imagens do trabalho/vetor-de-ícone-perfil-do-avatar-padrão-imagem-símbolo-usuário-mídia-social-209498286.webp">
+         <h2 class="criar-conta">Entre ou Faça login!</h2>  <a href="perfil.html"> <img class="perfil" height="50px" src="Imagens do trabalho/vetor-de-ícone-perfil-do-avatar-padrão-imagem-símbolo-usuário-mídia-social-209498286.webp"> </a>
        </div>
     
    </header>
@@ -33,19 +33,24 @@
    </nav>
 
    <main class="conteudo">
-        <section class="conteudo-secao">
+      <section class="conteudo-secao">
 
            <div class="fundo-titulo-produtos">
                <h1 class="titulo-produtos">Produtos - Jogos</h1>
               </div>
 
+           <div class="fundo-venda-produtos">
+               <h1 class="venda-produtos">Alguns dos jogos à venda:</h1>
+              </div>
+
           <div class="lista-jogos">
 
             <div class="jogos-card">
-              <img src="Imagens do trabalho/RC_AB_App_Icon_April_2022.webp" alt="angrybirds" class="jogo-imagem">
+              <img src="Imagens do trabalho/RC_AB_App_Icon_April_2022.webp" alt="angrybirds" class="jogo-imagem"></a>
               <h3 class="jogo-nome">Angry Birds</h3>
               <p class="jogo-preco">Preço: R$00,00</p>
               <p class="jogo-nota">Nota: 4,5/5 ⭐</p>
+              <a href="https://play.google.com/store/apps/details?id=com.rovio.abaaos&pcampaignid=web_share"><p class="jogo-abaixar">Download</p></a>
             </div>  
             
             <div class="jogos-card">
@@ -56,23 +61,71 @@
             </div>
 
             <div class="jogos-card">
-              <img src="Imagens do trabalho/RC_AB_App_Icon_April_2022.webp" alt="angrybirds" class="jogo-imagem">
-              <h3 class="jogo-nome">Angry Birds</h3>
+              <img src="Imagens do trabalho/mbn50vmvx0fa1.jpg" alt="Supermario" class="jogo-imagem">
+              <h3 class="jogo-nome">Super Mario World</h3>
               <p class="jogo-preco">Preço: R$00,00</p>
-              <p class="jogo-nota">Nota: 4,5/5 ⭐</p>
+              <p class="jogo-nota">Nota: 4,75/5 ⭐</p>
+            </div>
+
+            <div class="jogos-card">
+              <img src="Imagens do trabalho/Cuphead-logo-500x500.png" alt="Cuphead" class="jogo-imagem">
+              <h3 class="jogo-nome">Cuphead</h3>
+              <p class="jogo-preco">Preço: R$90,00</p>
+              <p class="jogo-nota">Nota: 4,6/5 ⭐</p>
+            </div> 
+
+            <div class="jogos-card">
+              <img src="Imagens do trabalho/Minecraft_Bedrock_icon.webp" alt="Minecraft" class="jogo-imagem">
+              <h3 class="jogo-nome">Minecraft</h3>
+              <p class="jogo-preco">Preço: R$35,00</p>
+              <p class="jogo-nota">Nota: 4,8/5 ⭐</p>
             </div>
 
               <div class="jogos-card">
-              <img src="Imagens do trabalho/RC_AB_App_Icon_April_2022.webp" alt="angrybirds" class="jogo-imagem">
-              <h3 class="jogo-nome">Angry Birds</h3>
-              <p class="jogo-preco">Preço: R$00,00</p>
+              <img src="Imagens do trabalho/dead-cells---button-fin-1560125633132.jpg" alt="Deadcells" class="jogo-imagem">
+              <h3 class="jogo-nome">Deadcells</h3>
+              <p class="jogo-preco">Preço: R$30,00</p>
+              <p class="jogo-nota">Nota: 4,7/5 ⭐</p>
+            </div>
+
+            <div class="jogos-card">
+              <img src="Imagens do trabalho/super_meat_boy_icon_by_thatoe-d4gv7dc.png" alt="supermeatboy" class="jogo-imagem">
+              <h3 class="jogo-nome">Super Meat Boy</h3>
+              <p class="jogo-preco">Preço: R$15,00</p>
               <p class="jogo-nota">Nota: 4,5/5 ⭐</p>
             </div>
 
-          </div>
-        </section>
+            <div class="jogos-card">
+              <img src="Imagens do trabalho/celeste-3938712.jpg" alt="Celeste" class="jogo-imagem">
+              <h3 class="jogo-nome">Celeste</h3>
+              <p class="jogo-preco">Preço: R$20,00</p>
+              <p class="jogo-nota">Nota: 5/5 ⭐</p>
+            </div>
+
+            <div class="jogos-card">
+              <img src="Imagens do trabalho/little.nightmares.icon.png" alt="Little Nightmares" class="jogo-imagem">
+              <h3 class="jogo-nome">Little Nightmares</h3>
+              <p class="jogo-preco">Preço: R$35,00</p>
+              <p class="jogo-nota">Nota: 4,8/5 ⭐</p>
+            </div>
+
+            <div class="jogos-card">
+              <img src="Imagens do trabalho/artworks-000432245559-21io6u-t500x500.jpg" alt="Deltarune" class="jogo-imagem">
+              <h3 class="jogo-nome">Deltarune C. 1 & 2</h3>
+              <p class="jogo-preco">Preço: R$00,00</p>
+              <p class="jogo-nota">Nota: 5,1/5 ⭐</p>
+              <p class="jogo-abaixar">Download</p>
+            </div>
+
+          </div> 
+
+      </section>
+
+      <aside class="lateral-produtos">
 
 
-   </main>
+      </aside>
+
+   <main>
 
 </body>

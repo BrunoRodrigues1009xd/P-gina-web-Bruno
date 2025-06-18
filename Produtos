@@ -23,11 +23,6 @@
        <div class="conta">
          <h2 class="criar-conta">Entre ou Faça login!</h2><a href="perfil.html"> <img class="perfil" height="50px" src="Imagens do trabalho/vetor-de-ícone-perfil-do-avatar-padrão-imagem-símbolo-usuário-mídia-social-209498286.webp"> </a>
        </div>
-
-       <div class="carrinho">
-        <h2 class="entrar-carrinho">Acesse o carrinho!</h2><a href="carrinho.html"> <img class="carrinhopng" height="50px" src="Imagens do trabalho/5952951.png"> </a>
-       </div>
-      
     
    </header>
 

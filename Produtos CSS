@@ -141,10 +141,15 @@ body {
   color: var(--cor-verdeescuro);
 }
 
-.jogo-abaixar {
-  font-size: 1.2em;
+.jogo-abaixar, .abaixar {
+  font-size: 1.05em;
   font-weight: bold;
   margin: 4px 0;
+  text-decoration: none;
+  transition: 0.15s;
   color: var(--cor-verdeescuro);
 }
 
+.abaixar :hover {
+    color: var(--cor-secundaria);
+}

@@ -14,22 +14,24 @@
     </head>
     <body>
         <div>
+            <nav>
             <ul class="menu">
                 <li><a href="index.html">Pagina Inicial</a></li>
-                <li><a href="Produtos.html">Produtos</a></li>
-                <li><a hreff="contato.html"> Contato</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a hreff="contato.html">Contato</a></li>
 
             </ul>
-        <img class="logo" height="100px" src="Imagens do trabalho/Question_Block_NSMB.webp">
-        <h1>Lᴏᴊᴀ ᴅᴇ Jᴏɢᴏs</h1>
-        <img class="logo" height="100px" src="Imagens do trabalho/Question_Block_NSMB.webp">
+        </nav>
+        <img class="logo" height="100px" src="Imagens do trabalho/Question_Block_NSMB.png">
+        <h1>LevelUp Store</h1>
+        <img class="logo" height="100px" src="Imagens do trabalho/Question_Block_NSMB.png">
         </div>
 
         <p>Jogos populares no momento:</p>
 
         <div class="fundo-imagem">
-        <img windth="100px" height="470px" src="Imagens do trabalho/super_mario_world_yoshi.webp">
-        <img windth="100px" height="470px" src="Imagens do trabalho/angry-birds-03.webp">
+        <img windth="100px" height="470px" src="Imagens do trabalho/super_mario_world_yoshi.jpg">
+        <img windth="100px" height="470px" src="Imagens do trabalho/angry-birds-03.jpg">
         </div>
         <h2>Gameplay de um dos jogos:</h2>
         <div class="fundo-video"> 

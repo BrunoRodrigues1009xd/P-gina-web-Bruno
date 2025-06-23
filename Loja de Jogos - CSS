@@ -3,7 +3,7 @@ div {
     text-align: center;
 }
 body {
-    background-color:#26ff00;
+    background-color:#32CD32;
      
 }
 h1 {
@@ -65,6 +65,7 @@ line-height: 45px;
 .fundo-imagem {
     background-color:#59ff34;
     align-items: center;
+    display: flex;
 }
 
 .localizacao {

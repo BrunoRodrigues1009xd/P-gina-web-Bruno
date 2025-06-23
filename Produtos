@@ -27,12 +27,12 @@
    </header>
 
    <nav class="menu">
-       <ul>
-           <li class="menu-item"><a href="index.html">Início</a></li>
-           <li class="menu-item"><a href="ofertas.html">Ofertas</a></li>
-           <li class="menu-item"><a href="contato.html">Contato</a></li>
-           <li class="menu-item"><a href="sobrenos.html">Sobre Nós</a></li>
-       </ul>
+       <ul class="nav-menu">
+         <li class="menu-item"><a href="index.html">Início</a></li>
+         <li class="menu-item"><a href="ofertas.html">Ofertas</a></li>
+         <li class="menu-item"><a href="contato.html">Contato</a></li>
+         <li class="menu-item"><a href="sobrenos.html">Sobre Nós</a></li>
+      </ul>
 
    </nav>
 
@@ -47,10 +47,10 @@
                <h1 class="venda-produtos">Alguns dos jogos à venda:</h1>
               </div>
 
-          <div class="lista-jogos">
+          <div class="lista-jogos1">
 
             <div class="jogos-card">
-              <img src="Imagens do trabalho/RC_AB_App_Icon_April_2022.webp" alt="angrybirds" class="jogo-imagem"></a>
+              <img src="Imagens do trabalho/RC_AB_App_Icon_April_2022.webp" alt="angrybirds" class="jogo-imagem">
               <h3 class="jogo-nome">Angry Birds</h3>
               <p class="jogo-preco">Preço: R$00,00</p>
               <p class="jogo-nota">Nota: 4,5/5 ⭐</p>
@@ -88,6 +88,10 @@
               <p class="jogo-nota">Nota: 4,8/5 ⭐</p>
               <a class="abaixar" href="https://play.google.com/store/apps/details?id=com.mojang.minecraftpe&utm_source=mcnet_android_pdp_mcov"><p class="jogo-abaixar">Download</p></a>
             </div>
+          
+          </div>
+
+          <div class="lista-jogos2">
 
               <div class="jogos-card">
               <img src="Imagens do trabalho/dead-cells---button-fin-1560125633132.jpg" alt="Deadcells" class="jogo-imagem">
@@ -133,11 +137,11 @@
 
       </section>
 
-      <aside class="lateral-produtos">
+   </main>
 
+   <footer class="rodape">
+      <p>&copy; 2025 LevelUp Store - Todos os direitos reservados.</p>
+   </footer>
 
-      </aside>
-
-   <main>
 
 </body>

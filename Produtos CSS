@@ -7,12 +7,17 @@
     --cor-link:#66ff00;
     --cor-produtos:#26ff4a;
     --cor-verdeescuro:#0a2b00;
+    --cor-verdeclaro:#d3ffd8;
     --cor-verdeinter:#23af00;
-
+  
 }
 
 body {
     background-color: #6fff7e;
+}
+
+a {
+    transition: all 0.3s ease;
 }
 
 .cabecalho {
@@ -28,10 +33,13 @@ body {
 
 .menu >ul{
     background-color:#1c8200;
+    font-size: 19px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     list-style: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 3px 0;
 }
 
 .menu-item >a{
@@ -46,6 +54,15 @@ body {
 .menu-item > a:hover{
     color: var(--cor-link);
 }
+
+.menu-item > a:hover {
+    color: var(--cor-link);
+    background-color: var(--cor-verdeescuro);
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
 
 .conteudo {
     background-color:#6fff7e
@@ -68,21 +85,23 @@ body {
     text-shadow: 2px 2px 3px black, -2px -2px 3px black ;
     color:#ffffff;
     font-size: 80px;
-    display:inline;
+    display: inline;
     margin-left: 20px;
     margin-right: 20px;
-   
 }
 
 .fundo-titulo-produtos {
     background-color:var(--cor-destaque) ;
 }
 
-.lista-jogos {
+.lista-jogos1, .lista-jogos2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
+    gap: 5px;
+    margin-top: 0px;
 }
+
 
 .titulo-produtos {
     background-color: #32CD32;
@@ -120,13 +139,21 @@ body {
   transition: transform 0.3s;
 }
 
-.jogo-card:hover {
-  transform: scale(1.05);
+.jogos-card:hover {
+    transform: scale(1.005);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
+
 
 .jogo-imagem {
   width: 80%;
   border-radius: 8px;
+}
+
+.jogo-imagem:hover {
+    transform: scale(1.05);
+    transition: 0.25s;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.219);
 }
 
 .jogo-nome {
@@ -151,5 +178,19 @@ body {
 }
 
 .abaixar :hover {
-    color: var(--cor-secundaria);
+    color: var(--cor-verdeclaro);
+    background-color: var(--cor-secundaria);
+    padding: 2.5px;
+    border-radius: 5px;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
 }
+
+.rodape {
+    background-color: #1c8200;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+

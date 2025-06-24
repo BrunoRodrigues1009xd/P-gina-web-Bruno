@@ -50,11 +50,14 @@
           <div class="lista-jogos1">
 
             <div class="jogos-card">
-              <img src="Imagens do trabalho/RC_AB_App_Icon_April_2022.webp" alt="angrybirds" class="jogo-imagem">
+              <img src="Imagens do trabalho/RC_AB_App_Icon_April_2022.jpg" alt="angrybirds" class="jogo-imagem">
               <h3 class="jogo-nome">Angry Birds</h3>
               <p class="jogo-preco">Preço: R$00,00</p>
               <p class="jogo-nota">Nota: 4,5/5 ⭐</p>
+              <div class="abaixar-carrinho">
               <a class="abaixar" href="https://play.google.com/store/apps/details?id=com.rovio.abaaos&pcampaignid=web_share"><p class="jogo-abaixar">Download</p></a>
+              <a class="carrinho" href="carrinho.html"><img src="Imagens do trabalho/carrinho.png" alt="carrinho" class="jogo-carrinho"></a>
+              </div>
             </div>  
             
             <div class="jogos-card">
@@ -82,7 +85,7 @@
             </div> 
 
             <div class="jogos-card">
-              <img src="Imagens do trabalho/Minecraft_Bedrock_icon.webp" alt="Minecraft" class="jogo-imagem">
+              <img src="Imagens do trabalho/Minecraft_Bedrock_icon.jpg" alt="Minecraft" class="jogo-imagem">
               <h3 class="jogo-nome">Minecraft</h3>
               <p class="jogo-preco">Preço: R$10,00</p>
               <p class="jogo-nota">Nota: 4,8/5 ⭐</p>
@@ -140,7 +143,7 @@
    </main>
 
    <footer class="rodape">
-      <p>&copy; 2025 LevelUp Store - Todos os direitos reservados.</p>
+      <p class="texto-rodape">©2025 LevelUp Store - Loja de Bruno Rodrigues</p>
    </footer>
 
 

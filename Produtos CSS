@@ -171,7 +171,8 @@ a {
 .jogo-abaixar, .abaixar {
   font-size: 1.05em;
   font-weight: bold;
-  margin: 4px 0;
+  margin-top: 6px;
+  margin-left: 10px;
   text-decoration: none;
   transition: 0.15s;
   color: var(--cor-verdeescuro);
@@ -186,6 +187,25 @@ a {
     transition: all 0.3s ease;
 }
 
+.jogo-carrinho, .carrinho {
+  width: 48%;
+  margin-right: -16px;
+  margin-top: 5px;
+}
+
+.carrinho :hover {
+  background-color: var(--cor-verdeclaro);
+  border-radius: 5px;
+  block-size:auto;
+  transition: all 0.3s ease;
+}
+
+.abaixar-carrinho {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
 .rodape {
     background-color: #1c8200;
     color: white;
@@ -194,3 +214,8 @@ a {
     margin-top: 30px;
 }
 
+.texto-rodape {
+    font-size: 1.10em;
+    font-weight: 900;
+
+}

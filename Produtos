@@ -21,7 +21,8 @@
     <h1 class="titulo-site">LevelUp Store</h1>
 
        <div class="conta">
-         <h2 class="criar-conta">Entre ou Faça login!</h2><a href="perfil.html"> <img class="perfil" height="50px" src="Imagens do trabalho/vetor-de-ícone-perfil-do-avatar-padrão-imagem-símbolo-usuário-mídia-social-209498286.webp"> </a>
+         <h2 class="criar-conta">Entre ou Faça login!</h2><a href="perfil.html">
+         <img class="perfil" height="50px" src="Imagens do trabalho/vetor-de-ícone-perfil-do-avatar-padrão-imagem-símbolo-usuário-mídia-social-209498286.webp"> </a>
        </div>
     
    </header>

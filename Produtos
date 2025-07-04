@@ -31,6 +31,7 @@
          <li class="menu-item"><a href="index.html">Início</a></li>
          <li class="menu-item"><a href="ofertas.html">Ofertas</a></li>
          <li class="menu-item"><a href="contato.html">Contato</a></li>
+         <li class="menu-item"><a href="categoria.html">Categorias</a></li>
          <li class="menu-item"><a href="sobrenos.html">Sobre Nós</a></li>
       </ul>
 
@@ -52,13 +53,10 @@
             <div class="jogos-card">
               <img src="Imagens do trabalho/RC_AB_App_Icon_April_2022.jpg" alt="angrybirds" class="jogo-imagem">
               <h3 class="jogo-nome">Angry Birds</h3>
-              <p class="jogo-preco">Preço: R$00,00</p>
+              <p class="jogo-preco">Preço: R$06,00</p>
               <p class="jogo-nota">Nota: 4,5/5 ⭐</p>
-              <div class="abaixar-carrinho">
               <a class="abaixar" href="https://play.google.com/store/apps/details?id=com.rovio.abaaos&pcampaignid=web_share"><p class="jogo-abaixar">Download</p></a>
-              <a class="carrinho" href="carrinho.html"><img src="Imagens do trabalho/carrinho.png" alt="carrinho" class="jogo-carrinho"></a>
-              </div>
-            </div>  
+            </div>
             
             <div class="jogos-card">
               <img src="Imagens do trabalho/undertale-font.jpg" alt="Undertale" class="jogo-imagem">

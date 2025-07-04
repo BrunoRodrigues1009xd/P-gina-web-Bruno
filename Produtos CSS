@@ -68,6 +68,9 @@ a {
     background-color:#6fff7e
 }
 
+.conta {
+    align-items: end;
+}
 
 .criar-conta {
     color:#ffffff;
@@ -144,16 +147,15 @@ a {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
-
 .jogo-imagem {
   width: 80%;
   border-radius: 8px;
+  transition: transform 0.25s ease;
 }
 
 .jogo-imagem:hover {
-    rotate: 360deg;
+    animation: pulsar 1s ease-in-out infinite;
     transform: scale(1.05);
-    transition: all 0.25s ease;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.219);
 }
 
@@ -204,3 +206,10 @@ a {
     font-weight: 900;
 
 }
+
+
+
+@keyframes pulsar {
+   0%, 100% { transform: scale(1);  }
+   50% { transform: scale(1.05);  }
+    }

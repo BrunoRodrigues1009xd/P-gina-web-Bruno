@@ -51,7 +51,7 @@
           
           <ul class="lista-jogos">
               <li class="jogos-card">
-                <img src="Imagens do trabalho/RC_AB_App_Icon_April_2022.jpg" alt="Angry Birds" class="jogo-imagem">
+                <img src="Imagens do trabalho/RC_AB_App_Icon_April_2022.webp" alt="Angry Birds" class="jogo-imagem">
                 <h3 class="jogo-nome">Angry Birds</h3>
                 <p class="jogo-preco">Preço: R$6,00</p>
                 <p class="jogo-nota">Nota: 4,5/5 ⭐</p>
@@ -83,7 +83,7 @@
               </li>
 
               <li class="jogos-card">
-                <img src="Imagens do trabalho/Minecraft_Bedrock_icon.jpg" alt="Minecraft" class="jogo-imagem">
+                <img src="Imagens do trabalho/Minecraft_Bedrock_icon.webp" alt="Minecraft" class="jogo-imagem">
                 <h3 class="jogo-nome">Minecraft</h3>
                 <p class="jogo-preco">Preço: R$10,00</p>
                 <p class="jogo-nota">Nota: 4,8/5 ⭐</p>

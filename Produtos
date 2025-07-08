@@ -51,13 +51,13 @@
           
           <ul class="lista-jogos">
               <li class="jogos-card">
-                <img src="Imagens do trabalho/RC_AB_App_Icon_April_2022.webp" alt="Angry Birds" class="jogo-imagem">
+                <img src="Imagens do trabalho/RC_AB_App_Icon_April_2022.jpeg" alt="Angry Birds" class="jogo-imagem">
                 <h3 class="jogo-nome">Angry Birds</h3>
                 <p class="jogo-preco">Preço: R$6,00</p>
                 <p class="jogo-nota">Nota: 4,5/5 ⭐</p>
               <div class="botoes">
                 <a class="abaixar" href="https://play.google.com/store/apps/details?id=com.rovio.abaaos&pcampaignid=web_share">Download</a>
-                <img src="Imagens do trabalho/carrinho.png" alt="carrinho" class="carrinho">
+                <img class="carrinho" src="Imagens do trabalho/carrinho.png" data-src="Imagens do trabalho/5952951.png" alt="carrinho de compras">
               </div>
               </li>
 
@@ -68,7 +68,7 @@
                 <p class="jogo-nota">Nota: 5/5 ⭐</p>
               <div class="botoes">
                 <a class="abaixar" href="https://store.steampowered.com/app/391540/Undertale/">Download</a>
-                <img src="Imagens do trabalho/carrinho.png" alt="carrinho" class="carrinho">
+                <img class="carrinho" src="Imagens do trabalho/carrinho.png" data-src="Imagens do trabalho/5952951.png" alt="carrinho de compras">
               </div>
               </li>
 
@@ -79,7 +79,7 @@
                 <p class="jogo-nota">Nota: 4,75/5 ⭐</p>
               <div class="botoes">
                 <a class="abaixar" href="https://www.emulatorgames.net/roms/super-nintendo/super-mario-world/">Download</a>
-                <img src="Imagens do trabalho/carrinho.png" alt="carrinho" class="carrinho">
+                <img class="carrinho" src="Imagens do trabalho/carrinho.png" data-src="Imagens do trabalho/5952951.png" alt="carrinho de compras">
               </div>
               </li>
 
@@ -90,18 +90,18 @@
                 <p class="jogo-nota">Nota: 4,6/5 ⭐</p>
               <div class="botoes">
                 <a class="abaixar" href="https://store.steampowered.com/app/268910/Cuphead/">Download</a>
-                <img src="Imagens do trabalho/carrinho.png" alt="carrinho" class="carrinho">
+                <img class="carrinho" src="Imagens do trabalho/carrinho.png" data-src="Imagens do trabalho/5952951.png" alt="carrinho de compras">
               </div>
               </li>
 
               <li class="jogos-card">
-                <img src="Imagens do trabalho/Minecraft_Bedrock_icon.webp" alt="Minecraft" class="jogo-imagem">
+                <img src="Imagens do trabalho/Minecraft_Bedrock_icon.jpg" alt="Minecraft" class="jogo-imagem">
                 <h3 class="jogo-nome">Minecraft</h3>
                 <p class="jogo-preco">Preço: R$10,00</p>
                 <p class="jogo-nota">Nota: 4,8/5 ⭐</p>
               <div class="botoes">
                 <a class="abaixar" href="https://play.google.com/store/apps/details?id=com.mojang.minecraftpe&utm_source=mcnet_android_pdp_mcov">Download</a>
-                <img src="Imagens do trabalho/carrinho.png" alt="carrinho" class="carrinho">
+                <img class="carrinho" src="Imagens do trabalho/carrinho.png" data-src="Imagens do trabalho/5952951.png" alt="carrinho de compras">
               </div>
               </li>
           </ul>
@@ -114,7 +114,7 @@
                 <p class="jogo-nota">Nota: 4,7/5 ⭐</p>
               <div class="botoes">
                 <a class="abaixar" href="https://store.steampowered.com/app/588650/Dead_Cells/">Download</a>
-                <img src="Imagens do trabalho/carrinho.png" alt="carrinho" class="carrinho">
+                <img class="carrinho" src="Imagens do trabalho/carrinho.png" data-src="Imagens do trabalho/5952951.png" alt="carrinho de compras">
               </div>
               </li>
 
@@ -125,7 +125,7 @@
                 <p class="jogo-nota">Nota: 4,5/5 ⭐</p>
               <div class="botoes">
                 <a class="abaixar" href="https://store.steampowered.com/app/40800/Super_Meat_Boy/">Download</a>
-                <img src="Imagens do trabalho/carrinho.png" alt="carrinho" class="carrinho">
+                <img class="carrinho" src="Imagens do trabalho/carrinho.png" data-src="Imagens do trabalho/5952951.png" alt="carrinho de compras">
               </div>
               </li>
 
@@ -136,7 +136,7 @@
                 <p class="jogo-nota">Nota: 5/5 ⭐</p>
               <div class="botoes">
                 <a class="abaixar" href="https://store.steampowered.com/app/504230/Celeste/">Download</a>
-                <img src="Imagens do trabalho/carrinho.png" alt="carrinho" class="carrinho">
+                <img class="carrinho" src="Imagens do trabalho/carrinho.png" data-src="Imagens do trabalho/5952951.png" alt="carrinho de compras">
               </div>
               </li>
 
@@ -147,7 +147,7 @@
                 <p class="jogo-nota">Nota: 4,8/5 ⭐</p>
               <div class="botoes">
                 <a class="abaixar" href="https://store.steampowered.com/app/424840/Little_Nightmares/">Download</a>
-                <img src="Imagens do trabalho/carrinho.png" alt="carrinho" class="carrinho">
+                <img class="carrinho" src="Imagens do trabalho/carrinho.png" data-src="Imagens do trabalho/5952951.png" alt="carrinho de compras">
               </div>
               </li>
 
@@ -158,7 +158,7 @@
                 <p class="jogo-nota">Nota: 5,1/5 ⭐</p>
               <div class="botoes">
                 <a class="abaixar" href="https://store.steampowered.com/app/1671210/DELTARUNE/">Download</a>
-                <img src="Imagens do trabalho/carrinho.png" alt="carrinho" class="carrinho">
+                <img class="carrinho" src="Imagens do trabalho/carrinho.png" data-src="Imagens do trabalho/5952951.png" alt="carrinho de compras">
               </div>
               </li>
           </ul>
@@ -170,6 +170,33 @@
    <footer class="rodape">
       <p class="texto-rodape">©2025 LevelUp Store - Loja de Bruno Rodrigues</p>
    </footer>
+
+
+
+
+
+
+   <script>
+    document.querySelectorAll('.carrinho').forEach(img => {
+    let clicavel = true; // controle de estado
+    
+    img.addEventListener('click', () => {
+    if (!clicavel) return; // impede múltiplos cliques
+    
+    clicavel = false; // bloqueia novos cliques
+    
+    const imagemOriginal = img.src;
+    const novaImagem = img.getAttribute('data-src');
+    
+    img.src = novaImagem;
+    
+    setTimeout(() => {
+    img.src = imagemOriginal;
+    clicavel = true; // libera o clique novamente
+    }, 500); // tempo de delay
+    });
+    });
+    </script>
 
 
 </body>

@@ -197,7 +197,7 @@ a {
 .carrinho {
     width: 20%;
     margin-left: 22px;
-    background-color: var(--cor-destaque);
+    background-color: var(--cor-principal);
 }
 
 .carrinho:hover {
@@ -241,5 +241,3 @@ a {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-5px); }
 }
-
-

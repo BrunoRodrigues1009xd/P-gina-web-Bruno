@@ -169,11 +169,6 @@ a {
   margin: 10px 0 5px 0;
 }
 
-.jogo-nome:hover {
-  transform: scale(1.05);
-  transition: 0.25s;
-}
-
 .jogo-preco, .jogo-nota {
   font-size: 0.95em;
   margin: 4px 0;
@@ -183,9 +178,10 @@ a {
 .abaixar {
   display: inline-block;
   margin-top: 4px;
+  margin-left: 20px;
   background-color: var(--cor-destaque);
   color: var(--cor-verdeescuro);
-  font-size: 1.05em;
+  font-size: 1.15em;
   font-weight: bold;
   text-decoration: none;
  
@@ -196,6 +192,23 @@ a {
     color: var(--cor-verdeclaro);
     transform: scale(1.05);
     transition: all 0.3s ease;
+}
+
+.carrinho {
+    width: 20%;
+    margin-left: 22px;
+    background-color: var(--cor-destaque);
+}
+
+.carrinho:hover {
+    animation: pulsar 1s ease-in-out infinite;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.botoes {
+    display: flex;
+    align-items: center;
 }
 
 .rodape {
@@ -215,8 +228,8 @@ a {
 
 
 @keyframes pulsar {
-   0%, 100% { transform: scale(1);  }
-   50% { transform: scale(1.10);  }
+  100% { transform: scale(1);  }
+  50% { transform: scale(1.10);  }
     }
 
 @keyframes aparecer {

@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagens do trabalho/Vermelho_240 - Copia.png" type="image/x-icon">
+    <link rel="stylesheet" href="Estilos/reset.css">
+    <link rel="stylesheet" href="Estilos/produtos.css">
+    <title>Perfil</title>
+</head>
+<body>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="forms">
+  <form action="/enviar-dados" method="post">
+    <label for="campo_nome">Nome:</label>
+    <input type="text" id="campo_nome" name="Nome" placeholder="Nome Completo" required>
+    <br>
+    <label for="campo_email">E-mail:</label>
+    <input type="email" id="campo_email" name="E-mail" placeholder="exemplo@email.com" required>
+    <br>
+    <label for="campo_whats">Telefone:</label>
+    <input type="tel" id="campo_whats" name="Whats" placeholder="(xx) xxxxx-xxxx" required>
+    <br>
+    <br>
+    <label for="campo_enviar"></label>
+    <input type="submit" id="campo_enviar">
+  </form>
+  </div>
+    
+</body>
+</html>

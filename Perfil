@@ -10,22 +10,7 @@
 </head>
 <body>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <form action="" method="post">
+ <form action="" method="post">
     <label for="campo_nome">Nome:</label>
     <input type="text" id="campo_nome" name="campo_nome" placeholder="Nome Completo" required>
     <br>
@@ -36,9 +21,22 @@
     <input type="tel" id="campo_whats" name="whats" placeholder="(xx) xxxxx-xxxx">
     <br>
     <br>
+
+     <fieldset>
+      <legend>Turno do colégio:</legend>
+      <label for="opcao_html">
+        <input type="radio" id="opcao_html" name="opcao_ling" checked>
+      </label>
+
+      <select name="turno" id="turno">
+        <option value="m">Manhã</option>
+        <option value="t">Tarde</option>
+        <option value="n">Noite</option>
+      </select>
+      </fieldset>
+      <br>
+
     <input type="submit" value="Enviar">
   </form>
-  </div>
-    
+
 </body>
-</html>

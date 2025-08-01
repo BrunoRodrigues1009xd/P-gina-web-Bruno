@@ -25,20 +25,18 @@
 
 
 
-  <div class="forms">
-  <form action="/enviar-dados" method="post">
+  <form action="" method="post">
     <label for="campo_nome">Nome:</label>
-    <input type="text" id="campo_nome" name="Nome" placeholder="Nome Completo" required>
+    <input type="text" id="campo_nome" name="campo_nome" placeholder="Nome Completo" required>
     <br>
     <label for="campo_email">E-mail:</label>
-    <input type="email" id="campo_email" name="E-mail" placeholder="exemplo@email.com" required>
+    <input type="email" id="campo_email" name="campo_email" placeholder="exemplo@email.com" required>
     <br>
     <label for="campo_whats">Telefone:</label>
-    <input type="tel" id="campo_whats" name="Whats" placeholder="(xx) xxxxx-xxxx" required>
+    <input type="tel" id="campo_whats" name="whats" placeholder="(xx) xxxxx-xxxx">
     <br>
     <br>
-    <label for="campo_enviar"></label>
-    <input type="submit" id="campo_enviar">
+    <input type="submit" value="Enviar">
   </form>
   </div>
     

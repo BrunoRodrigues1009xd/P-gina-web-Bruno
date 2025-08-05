@@ -30,6 +30,7 @@
       </label>
 
       <select name="metodo" id="metodo">
+        <option value="s">Selecionar opção</option>
         <option value="p">Pix</option>
         <option value="cd">Cartão de Débito</option>
         <option value="cc">Cartão de Crédito</option>
@@ -41,10 +42,10 @@
     <fieldset>
       <legend>Gostaria de receber ofertas da loja via email e sms?</legend>
     <label for="opcao1">
-      <input type="radio" id="opcao1" name="opcoes" checked>Sim
+      <input type="radio" id="opcao1" name="opcoes">Sim
     </label> 
     <label for="opcao2">
-      <input type="radio" id="opcao2" name="opcoes" checked>Não
+      <input type="radio" id="opcao2" name="opcoes">Não
     </label>
     </fieldset>
 
@@ -56,7 +57,11 @@
     </label>
     <br>
     <label for="termos-uso">
-      <input type="checkbox" id="termos-uso" name="termos" required>Aceito que meus dados sejam vendidos (também).
+      <input type="checkbox" id="termos-uso" name="termos" required>Aceito que meus dados sejam vendidos.
+    </label>
+    <br>
+    <label for="termos-uso">
+      <input type="checkbox" id="termos-uso" name="termos" required>Aceito conceder a minha localização em tempo real.
     </label>
     </fieldset>
     <br>

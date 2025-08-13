@@ -73,15 +73,26 @@ a {
 }
 
 .criar-conta {
+    font-size: 22px;
     color:#ffffff;
-    font-size: 20px;
-    margin-left: 590px;
-    margin-bottom: -30px;
+    font-weight: bold;
+    text-decoration: none;
+    position: fixed;
+    right: 80px;
+    top: 30px;
+
 }
 
 .perfil {
-    margin-left: 770px;
-    margin-bottom: 60px;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+}
+
+.carrinho-imagem {
+    position: fixed;
+    right: 20px;
+    top: 80px;
 }
 
 .perfil:hover {
@@ -200,10 +211,10 @@ a {
     background-color: var(--cor-principal);
 }
 
-.carrinho:hove {
+.carrinho:hover {
+    animation: pulsar 1s ease-in-out infinite;
     transform: scale(1.05);
     transition: all 0.3s ease;
-    
 }
 
 .botoes {

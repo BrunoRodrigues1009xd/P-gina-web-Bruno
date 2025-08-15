@@ -1,0 +1,101 @@
+/* Estilo geral da página */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  background: #f0f4f8;
+  font-family: Arial, sans-serif;
+}
+
+/* Container do formulário */
+form {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Labels e campos de texto/select */
+label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: 600;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.2s;
+  font-size: 1rem;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #0077cc;
+}
+
+/* Fieldsets e legendas */
+fieldset {
+  border: 1px solid #0077cc;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+legend {
+  padding: 0 0.5rem;
+  font-weight: 600;
+  color: #0077cc;
+}
+
+/* Botões de submit e reset */
+input[type="submit"],
+input[type="reset"] {
+  padding: 0.7rem 1.4rem;
+  margin-right: 0.6rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.2s;
+}
+
+input[type="submit"] {
+  background: #0077cc;
+  color: #fff;
+}
+
+input[type="submit"]:hover {
+  background: #005fa3;
+}
+
+input[type="reset"] {
+  background: #e04e4e;
+  color: #fff;
+}
+
+input[type="reset"]:hover {
+  background: #b73737;
+}
+
+/* Responsividade */
+@media (max-width: 480px) {
+  form {
+    padding: 1.2rem;
+    margin: 1rem;
+  }
+}

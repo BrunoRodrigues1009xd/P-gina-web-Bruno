@@ -1,6 +1,6 @@
 # Pagina-web-Loja-de-Jogos
 
 ## Feito por Bruno Vinicius Lemes Rodrigues, №: 05, 2º B DS. 
-<img height="50px" src="https://www.nintendo.com/eu/media/images/10_share_images/games_15/super_nintendo_5/H2x1_SNES_SuperMarioWorld.jpg">
+<img height="200px" src="https://www.nintendo.com/eu/media/images/10_share_images/games_15/super_nintendo_5/H2x1_SNES_SuperMarioWorld.jpg">
 
 #### (ainda pretendo refazer a parte do início, tendo em vista que o que fiz lá era de quando eu estava aprendendo a mexer no Visual Studio)

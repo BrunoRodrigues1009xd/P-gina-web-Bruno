@@ -77,14 +77,14 @@ a {
     color:#ffffff;
     font-weight: bold;
     text-decoration: none;
-    position: fixed;
+    position: absolute;
     right: 80px;
     top: 30px;
 
 }
 
 .perfil {
-    position: fixed;
+    position: absolute;
     right: 20px;
     top: 20px;
 }

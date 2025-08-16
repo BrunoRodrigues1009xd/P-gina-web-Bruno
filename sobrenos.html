@@ -1,95 +1,16 @@
-/* wrapper que centraliza horizontalmente o formulário */
-.form-container {
-  max-width: 400px;       /* largura média */
-  margin: 2rem auto;      /* 2rem topo/baixo, auto = centro horizontal */
-  padding: 0 1rem;        /* respirações laterais em tela pequena */
-}
+<script>
+  const selectMetodo = document.getElementById('metodo');
+  const outroGroup  = document.getElementById('metodo-outra-group');
 
-/* estilização do "cartão" do formulário */
-.form-container form {
-  background-color: #fff;
-  padding: 2rem;
-  border-radius: 8px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-}
-
-/* labels e inputs padronizados */
-.form-container label {
-  display: block;
-  margin-bottom: .3rem;
-  font-weight: 600;
-  color: #333;
-}
-
-.form-container input,
-.form-container select {
-  width: 100%;
-  padding: .6rem;
-  margin-bottom: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  transition: border-color .2s;
-}
-
-.form-container input:focus,
-.form-container select:focus {
-  outline: none;
-  border-color: #0077cc;
-}
-
-/* fieldsets */
-.form-container fieldset {
-  border: 1px solid #0077cc;
-  border-radius: 6px;
-  padding: 1rem;
-  margin-bottom: 1.2rem;
-}
-
-.form-container legend {
-  padding: 0 .5rem;
-  font-weight: 600;
-  color: #0077cc;
-}
-
-/* botões em linha */
-.form-buttons {
-  display: flex;
-  gap: .6rem;
-}
-
-.form-buttons input[type="submit"],
-.form-buttons input[type="reset"] {
-  flex: 1;
-  padding: .7rem 1rem;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 1rem;
-  transition: background-color .2s;
-}
-
-.form-buttons input[type="submit"] {
-  background: #0077cc;
-  color: #fff;
-}
-.form-buttons input[type="submit"]:hover {
-  background: #005fa3;
-}
-
-.form-buttons input[type="reset"] {
-  background: #e04e4e;
-  color: #fff;
-}
-.form-buttons input[type="reset"]:hover {
-  background: #b73737;
-}
-
-/* responsividade */
-@media (max-width: 480px) {
-  .form-container {
-    margin: 1rem auto;
-  }
-  .form-container form {
-    padding: 1.2rem;
-  }
-}
+  selectMetodo.addEventListener('change', () => {
+    if (selectMetodo.value === 'ou') {
+      outroGroup.classList.remove('hidden');
+      // opcional: focar no campo assim que abrir
+      document.getElementById('metodo-outra').focus();
+    } else {
+      outroGroup.classList.add('hidden');
+      // opcional: limpar caso já tenha digitado algo antes
+      document.getElementById('metodo-outra').value = '';
+    }
+  });
+</script>

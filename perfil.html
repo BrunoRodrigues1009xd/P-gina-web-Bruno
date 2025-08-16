@@ -11,6 +11,12 @@
 
 <body>
 
+<div class="level-up-login">
+  <img class="imagem-fundo" height="150px" src="Imagens do trabalho/3141932d5ffa4299b0bbb98f23430d9e.jpg">
+  <h1 class="level-up-text"> >Crie uma conta para ganhar descontos e receber ofertas sempre!</h1>
+</div>
+
+<section class="secao-login">
 
   <form action="" method="post">
     <label for="campo_nome">Nome:</label>
@@ -28,11 +34,8 @@
     <br>
     <br>
 
-     <fieldset>
+     <fieldset class="form-group">
       <legend>Método de pagamento principal:</legend>
-      <label for="opcao_html">
-        <input type="radio" id="opcao_html" name="opcao_ling" checked>
-      </label>
 
       <select name="metodo" id="metodo">
         <option value="s">Selecionar opção</option>
@@ -41,6 +44,11 @@
         <option value="cc">Cartão de Crédito</option>
         <option value="ou">Outra opção de pagamento (especificar)</option>
       </select>
+
+      <div id="metodo-outra-group" class="form-group hidden">
+        <label for="metodo-outra">Especifique o Método:</label>
+        <input type="text" id="metodo-outra" name="metodo-outra" placeholder="Descreva aqui">
+      </div>
       </fieldset>
       <br>
       
@@ -56,26 +64,58 @@
 
     <br>
     <fieldset>
-      <legend>Termos ESSENCIAIS da loja:</legend>
-    <label for="termos-uso">
-      <input type="checkbox" id="termos-uso" name="termos" required>Aceito que roube todos os meus dados em troca de jogos.
+      <legend>Termos e Serviços da loja:</legend>
+      <label for="termos-uso">
+      <input type="checkbox" id="termos-uso" name="termos" required>Aceito os termos essenciais da loja.
     </label>
     <br>
     <label for="termos-uso">
-      <input type="checkbox" id="termos-uso" name="termos" required>Aceito que meus dados sejam vendidos.
+      <input type="checkbox" id="termos-uso" name="termos">Aceito que roube todos os meus dados. (opcional)
     </label>
     <br>
     <label for="termos-uso">
-      <input type="checkbox" id="termos-uso" name="termos" required>Aceito conceder a minha localização em tempo real.
+      <input type="checkbox" id="termos-uso" name="termos">Aceito que meus dados sejam vendidos. (opcional)
+    </label>
+    <br>
+    <label for="termos-uso">
+      <input type="checkbox" id="termos-uso" name="termos">Aceito conceder a minha localização em tempo real. (opcional)
     </label>
     </fieldset>
     <br>
     <br>
   
-
+    <div class="botoes-froms"></div>
     <input type="submit" value="Enviar">
     <input type="reset" value="Limpar Formulário">
+    </div>
+
   </form>
+
+
+</section>
+
+
+
+
+<script>
+  const selectMetodo = document.getElementById('metodo');
+  const outroGroup  = document.getElementById('metodo-outra-group');
+
+  selectMetodo.addEventListener('change', () => {
+    if (selectMetodo.value === 'ou') {
+      outroGroup.classList.remove('hidden');
+      // opcional: focar no campo assim que abrir
+      document.getElementById('metodo-outra').focus();
+    } else {
+      outroGroup.classList.add('hidden');
+      // opcional: limpar caso já tenha digitado algo antes
+      document.getElementById('metodo-outra').value = '';
+    }
+  });
+</script>
+
+
+
 
 
 

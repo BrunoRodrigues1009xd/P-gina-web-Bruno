@@ -1,3 +1,18 @@
+:root{
+
+    --cor-principal:#6fff7e  ;
+    --cor-secundaria:#1da01d ;
+    --cor-destaque:#32CD32;
+    --branco: white ;
+    --cor-link:#66ff00;
+    --cor-produtos:#26ff4a;
+    --cor-verdeescuro:#0a2b00;
+    --cor-verdeescuro2:#1b7400;
+    --cor-verdeclaro:#d3ffd8;
+    --cor-verdeinter:#23af00;
+  
+}
+
 /* Estilo geral da página */
 body {
   display: flex;
@@ -5,13 +20,25 @@ body {
   justify-content: center;
   min-height: 100vh;
   margin: 0;
-  background: #f0f4f8;
+  background: var(--cor-verdeclaro);
   font-family: Arial, sans-serif;
 }
 
-/* Container do formulário */
+.level-up-login {
+  display: flex;
+  position: absolute;
+  left: 5%;
+  top: 20%;
+}
+
+.level-up-text {
+  font-weight: bold;
+  position: absolute;
+  top: 100%;
+}
+
 form {
-  background: #ffffff;
+  background: var(--branco);
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
@@ -20,12 +47,11 @@ form {
   box-sizing: border-box;
 }
 
-/* Labels e campos de texto/select */
 label {
   display: block;
   margin-bottom: 0.3rem;
   font-weight: 600;
-  color: #333;
+  color: var(--cor-verdeescuro2);
 }
 
 input[type="text"],
@@ -45,12 +71,11 @@ select {
 input:focus,
 select:focus {
   outline: none;
-  border-color: #0077cc;
+  border-color: var(--cor-verdeescuro2);
 }
 
-/* Fieldsets e legendas */
 fieldset {
-  border: 1px solid #0077cc;
+  border: 1px solid var(--cor-verdeescuro2);
   border-radius: 6px;
   padding: 1rem;
   margin-bottom: 1.2rem;
@@ -59,10 +84,9 @@ fieldset {
 legend {
   padding: 0 0.5rem;
   font-weight: 600;
-  color: #0077cc;
+  color: var(--cor-verdeescuro2);
 }
 
-/* Botões de submit e reset */
 input[type="submit"],
 input[type="reset"] {
   padding: 0.7rem 1.4rem;
@@ -75,12 +99,12 @@ input[type="reset"] {
 }
 
 input[type="submit"] {
-  background: #0077cc;
+  background: var(--cor-verdeescuro2);
   color: #fff;
 }
 
 input[type="submit"]:hover {
-  background: #005fa3;
+  background: var(--cor-verdeescuro);
 }
 
 input[type="reset"] {
@@ -92,7 +116,14 @@ input[type="reset"]:hover {
   background: #b73737;
 }
 
-/* Responsividade */
+.hidden {
+  display: none;
+}
+
+#metodo-outra-group input {
+  margin-top: .5rem
+}
+
 @media (max-width: 480px) {
   form {
     padding: 1.2rem;
